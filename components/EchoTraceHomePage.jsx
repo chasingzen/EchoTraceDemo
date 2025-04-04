@@ -6,7 +6,7 @@ import { ArrowRightIcon } from 'lucide-react';
 export default function EchoTraceHomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 to-gray-900 font-sans text-gray-100">
-      <header className="text-center py-24 sticky top-0 bg-gray-900 z-50 shadow-md">
+      <header className="text-center py-24">
         <motion.h1
           className="text-7xl font-extrabold mb-6 tracking-tight drop-shadow-lg"
           initial={{ opacity: 0, y: -40 }}
