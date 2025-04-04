@@ -1,4 +1,4 @@
-import EchoTraceHomePage from '../components/echotracehomepage';
+import EchoTraceHomePage.jsx from '../components/EchoTraceHomePage.jsx';
 
 export default function Home() {
   return (
