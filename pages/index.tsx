@@ -1,5 +1,4 @@
-// @ts-ignore
-import EchoTraceHomePage from '../components/EchoTraceHomePage.jsx';
+import EchoTraceHomePage from '../components/EchoTraceHomePage';
 
 export default function Home() {
   return (
