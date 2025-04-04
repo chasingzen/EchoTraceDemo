@@ -1,3 +1,24 @@
+import { useEffect } from "react";
+import { loadFull } from "tsparticles";
+import { tsParticles } from "tsparticles-engine";
+
+export default function Home() {
+  useEffect(() => {
+    loadFull(tsParticles).then(() => {
+      tsParticles.load("tsparticles", {
+        fullScreen: { enable: true, zIndex: -1 },
+        particles: {
+          number: { value: 60 },
+          color: { value: "#00ffff" },
+          shape: { type: "circle" },
+          opacity: { value: 0.6 },
+          size: { value: 3 },
+          move: { enable: true, speed: 1 }
+        },
+        background: { color: "#0f0f1b" }
+      });
+    });
+  }, []);
 return (
   <div className="relative min-h-screen bg-[#0f0f1b] overflow-hidden">
     <div id="tsparticles" className="absolute inset-0 z-0" />
