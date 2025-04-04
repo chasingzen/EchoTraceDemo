@@ -1,3 +1,9 @@
+import EchoTraceHomePage from '../components/echotracehomepage';
+
+export default function Home() {
+  return <EchoTraceHomePage />;
+}
+
 import { useEffect, useState } from "react";
 import { loadFull } from "tsparticles";
 import { tsParticles } from "tsparticles-engine";
